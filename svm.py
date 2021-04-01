@@ -4,6 +4,14 @@ import matplotlib.pyplot as plt
 %matplotlib inline 
 import seaborn as sns
 import numpy as np
+import sklearn
+from sklearn import datasets,metrics,tree
+from sklearn.model_selection import train_test_split
+#from sklearn import cross_validation as cv
+from sklearn import model_selection as cv # replaced the above line with this
+from sklearn.svm import SVC
+from sklearn.metrics import roc_curve,auc 
+
 
 #import the file as a pandas df
 stalcDF = pd.read_csv("//kaggle-alcohol/student-mat.csv", encoding = "ISO-8859-1")
