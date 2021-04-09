@@ -1,5 +1,5 @@
 # Support-Vector-Machines & scikit-learn
-Predicting Gender/ Alcohol consumption rates/ grades based on school data
+Predicting Gender/ Alcohol consumption rates/ grades based on data from a Kaggle export
 
 Sample performance: 
 
